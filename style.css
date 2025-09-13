@@ -45,6 +45,7 @@ body, p{
 
 .hero {
   height: 100vh;
+  height: 100vh;
   background-size: cover;
   background-position: center;
   display: flex;
