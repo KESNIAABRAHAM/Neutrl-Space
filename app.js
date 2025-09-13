@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 ? `<img src="${product.secondaryImage}" alt="${product.title} alt" class="secondary" loading="lazy">`
                 : ""
             }
-            <div class ="hover-text">ADD TO CART</div>
+            <div class ="hover-text">ADD TO BAG</div>
             <span class="product-tag">${product.tag}</span>
           </div>    
           <div class="product-info">
