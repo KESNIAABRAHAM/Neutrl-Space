@@ -16,7 +16,7 @@
   {
     "title": "Lightweight Printed Fleece Shirt",
     "price": "$150",
-    "tag": null,
+    "tag": "Limited",
     "primaryImage": "images/product5.jpeg",
     "secondaryImage": "images/product6.jpeg"
   },
@@ -30,7 +30,7 @@
   {
     "title": "Camo Fatigue Pant",
     "price": "$200",
-    "tag": null,
+    "tag": "Limited",
     "primaryImage": "images/product9.png",
     "secondaryImage": "images/product10.jpeg"
   },
@@ -44,7 +44,7 @@
     {
         "title": "New Balance Made in USA 990v6",
         "price": "$300",
-        "tag": "New",
+        "tag": "Limited",
         "primaryImage": "images/product13.jpeg",
         "secondaryImage": "images/product14.jpeg"
     },

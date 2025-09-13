@@ -13,8 +13,7 @@ body, p{
 }
 
 .button:focus, input:focus{
-    /* outline: 2px solid rgb(78, 204, 78); */
-    outline: 2px solid #C8BBA7;
+   outline: 2px solid #C8BBA7;
 
 }
 
@@ -45,7 +44,6 @@ body, p{
 
 
 .hero {
-  /* width: 100%; */
   height: 100vh;
   background-size: cover;
   background-position: center;
@@ -151,15 +149,12 @@ height: auto;
   border-radius: 10px;
 }
 
-/* === Product Grid Layout === */
+
 .product-grid {
   display: grid;
   grid-template-columns: 1fr;
   gap: 2rem;
   padding: 4rem 2rem;
- /* background-color: #0E0E0E; */
-
- 
 }
 
 @media (min-width: 600px) {
@@ -312,7 +307,7 @@ height: auto;
   margin-top: 1rem;
   font-size: 0.9rem;
   font-family: 'Helvetica Neue', sans-serif;
-  color: #FF6B6B; /* red for error */
+  color: #FF6B6B; 
   text-align: center;
   visibility: visible;
   opacity: 1;
@@ -320,12 +315,12 @@ height: auto;
 }
 
 .email-message.success {
-  color: #A6E3B2; /* soft green */
+  color: #A6E3B2; 
   text-align: center;
 }
 
 .email-message.error {
-  color: #FF6B6B; /* muted red */
+  color: #FF6B6B;
 }
 
 .hover-text {
