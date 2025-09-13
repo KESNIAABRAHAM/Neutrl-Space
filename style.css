@@ -53,8 +53,7 @@ body, p{
   justify-content: center;
   text-align: center;
   color: #F7F6F4;
-  overflow: hidden;
-  position: relative;
+  /* position: relative; */
   overflow: hidden;
 }
 
