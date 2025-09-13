@@ -52,6 +52,7 @@ body, p{
   justify-content: center;
   text-align: center;
   color: #F7F6F4;
+  overflow: hidden;
 }
 
 .hero-video {
@@ -62,7 +63,7 @@ body, p{
   height: 100%;
   object-fit: cover;
   z-index: -2;
-    filter: contrast(1.5) brightness(1.05);
+filter: contrast(1.5) brightness(1.05);
 }
 
 
