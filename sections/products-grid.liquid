@@ -1,0 +1,42 @@
+<section class="product-grid">
+  {% for product in collection.products %}
+    <div class="product-card">
+      <div class="product-image">
+        <img src="{{ product.featured_image | img_url: '800x' }}" alt="{{ product.title }}" class="primary">
+
+        {% if settings.show_secondary and product.images.size > 1 %}
+          <img src="{{ product.images[1] | img_url: '800x' }}" alt="{{ product.title }} alternate" class="secondary">
+        {% endif %}
+
+        {% if settings.show_tag and product.tags.size > 0 %}
+          <span class="product-tag">{{ product.tags.first }}</span>
+        {% endif %}
+      </div>
+
+      <div class="product-info">
+        <h3 class="product-title">{{ product.title }}</h3>
+        <p class="product-price">{{ product.price | money }}</p>
+      </div>
+    </div>
+  {% endfor %}
+</section>
+
+{% schema %}
+{
+  "name": "Product Grid",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "show_tag",
+      "label": "Show tag ribbon",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_secondary",
+      "label": "Show secondary image on hover",
+      "default": true
+    }
+  ]
+}
+{% endschema %}

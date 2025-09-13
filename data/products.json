@@ -1,0 +1,89 @@
+[
+  {
+    "title": "TQuilted Hunting Hat",
+    "price": "$320",
+    "tag": "New",
+    "primaryImage": "images/product1.jpeg",
+    "secondaryImage": "images/product2.jpeg"
+  },
+  {
+    "title": "ALD / Mitchell & Ness Artisan Hockey Jersey",
+    "price": "$450",
+    "tag": "Limited",
+    "primaryImage": "images/product3.jpeg",
+    "secondaryImage": "images/product4.jpeg"
+  },
+  {
+    "title": "Lightweight Printed Fleece Shirt",
+    "price": "$150",
+    "tag": null,
+    "primaryImage": "images/product5.jpeg",
+    "secondaryImage": "images/product6.jpeg"
+  },
+  {
+    "title": "Drop Needle Surplus Sweatpants",
+    "price": "$600",
+    "tag": "New",
+    "primaryImage": "images/product7.jpeg",
+    "secondaryImage": "images/product8.jpeg"
+  },
+  {
+    "title": "Camo Fatigue Pant",
+    "price": "$200",
+    "tag": null,
+    "primaryImage": "images/product9.png",
+    "secondaryImage": "images/product10.jpeg"
+  },
+    {
+        "title": "Striped Heritage Rugby",
+        "price": "$550",
+        "tag": "Limited",
+        "primaryImage": "images/product11.jpeg",
+        "secondaryImage": "images/product12.jpeg"
+    },
+    {
+        "title": "New Balance Made in USA 990v6",
+        "price": "$300",
+        "tag": "New",
+        "primaryImage": "images/product13.jpeg",
+        "secondaryImage": "images/product14.jpeg"
+    },
+    {
+        "title": "SQueens Crest Loafer",
+        "price": "$400",
+        "tag": "New",
+        "primaryImage": "images/product15.jpeg",
+        "secondaryImage": "images/product16.jpeg"
+    },
+    {
+        "title": "Full Grain Leather Crescent Shoulder Bag",
+        "price": "$400",
+        "tag": "New",
+        "primaryImage": "images/product17.jpeg",
+        "secondaryImage": "images/product18.jpeg"
+    },
+     {
+        "title": "Crest Canvas Weekender Tote",
+        "price": "$400",
+        "tag": "New",
+        "primaryImage": "images/product19.jpeg",
+        "secondaryImage": "images/product20.jpeg"
+    },
+      {
+        "title": "ALD / Timberland 3-Eye Lug",
+        "price": "$400",
+        "tag": "New",
+        "primaryImage": "images/product21.jpeg",
+        "secondaryImage": "images/product22.jpeg"
+    },
+      {
+        "title": "ALD / New Balance 650R",
+        "price": "$400",
+        "tag": "New",
+        "primaryImage": "images/product23.jpeg",
+        "secondaryImage": "images/product24.jpeg"
+    }
+    
+
+  
+]

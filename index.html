@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Neutrl Space</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="nav-left">
+          <button class="icon-btn" aria-label="Cart">
+            <img src="images/icons/menu.svg" alt="Cart icon" />
+          </button>
+          <button class="icon-btn" aria-label="Search">
+            <img src="images/icons/search.svg" alt="User icon" />
+          </button>
+        </div>
+
+        <h1 class="heading">NEUTRL SPACE</h1>
+
+        <div class="nav-right">
+          <button class="icon-btn" aria-label="Search">
+            <img src="images/icons/profile.svg" alt="User icon" />
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <section class="hero" id="scroll">
+      <video autoplay muted loop playsinline class="hero-video">
+        <source src="images/hero.mp4" type="video/mp4" loading="lazy" />
+        Your browser does not support the video tag.
+      </video>
+
+      <div class="hero-content">
+        <h2 class="hero-headline">
+          Timeless Essentials for the Modern Wardrobe
+        </h2>
+        <p class="hero-subhead">Crafted in New York. Designed for Life</p>
+        <button class="hero-cta" id="cta">Join The Reserve</button>
+      </div>
+    </section>
+    <main class="backy">
+      <section class="editorial" id="editorial">
+        <div class="editorial-content">
+          <h2 class="editorial-headline">
+            Rooted in New York. Refined Everywhere.
+          </h2>
+          <p class="editorial-body">
+            NEUTRL SPACE is a philosophy, not just a brand. Born in New York,
+            shaped by its contrasts chaos and calm, grit and grace we design for
+            those who move with intention. Our pieces echo the city’s pulse:
+            elevated essentials that feel effortless yet deliberate. From early
+            subway silence to rooftop golden hours, every silhouette is crafted
+            to transition with you fluid, timeless, and quietly powerful. We
+            don’t follow trends. We refine them. NEUTRL SPACE is where
+            minimalism meets meaning, and your wardrobe becomes a reflection of
+            clarity, confidence, and edge.
+          </p>
+        </div>
+        <figure class="editorial-image">
+          <img
+            src="images/picone.jpg"
+            alt="Editorial fashion shot"
+            loading="lazy"
+          />
+        </figure>
+      </section>
+
+      <h2 class="products-headline">Our Products</h2>
+      <section class="product-grid" id="products-grid"></section>
+
+      <section class="email-footer">
+        <h2 class="email-headline">
+          Be the first to access Neutrl space launches and events
+        </h2>
+
+        <form id="email-capture" class="email-capture">
+          <div class="email-wrapper">
+            <input
+              type="email"
+              id="email-input"
+              placeholder="Your Email*"
+              required
+            />
+            <button type="submit">SIGN UP</button>
+          </div>
+        </form>
+        <p id="email-message" class="email-message"></p>
+      </section>
+    </main>
+  </body>
+  <script src="app.js"></script>
+</html>
