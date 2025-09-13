@@ -271,17 +271,22 @@ height: auto;
   position: relative;
   display: flex;
   width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  flex-wrap: nowrap;
+  
 }
 
 .email-wrapper input {
   flex: 1;
+  min-width: 0;
   padding: 0.75rem 1rem;
-  padding-right: 130px;
   border: none;
   border-radius: 4px;
-  font-size: 1rem;
+  font-size: 16px;
   background-color: #F7F6F4;
   color: #0E0E0E;
+  min-width: 0;
 }
 
 .email-wrapper button {
