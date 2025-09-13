@@ -54,6 +54,8 @@ body, p{
   text-align: center;
   color: #F7F6F4;
   overflow: hidden;
+  position: relative;
+  overflow: hidden;
 }
 
 .hero-video {
