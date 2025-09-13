@@ -411,7 +411,7 @@ height: auto;
 }
 
 .sidebar.open {
-  right: 0;
+  left: 0;
 }
 
 .sidebar-links {
